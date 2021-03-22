@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputWrapper {
+    display: flex;
+    justify-content: center;
+    width: 47%;
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 44.68%;
+    /* identical to box height, or 6px */
+    letter-spacing: 0.15px;
+    /* very-dark-blue */
+    color: #0B1F35;
+    padding: 16px 12px;
+    border: 1px solid #9B9FB3;
+    border-radius: 4px;
+    outline-color: #2051A3;
+    position: relative;
+}
+
+.borderText {
+    position: absolute;
+    top: -10px;
+    left: 7px;
+    height: 20px;
+    width: 25px;
+    background-color: var(--navbar-bg-color);
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 20px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.15px;
+    text-align: center;
+}
